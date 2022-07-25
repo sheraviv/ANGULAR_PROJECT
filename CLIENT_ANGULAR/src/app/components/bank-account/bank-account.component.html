@@ -1,0 +1,39 @@
+
+
+<div>
+    <div  >
+    <table >
+        <tr>
+            <th>
+                Account Number
+            </th>
+            <th>
+                Balance
+            </th>
+            <th>
+                Loan
+            </th>
+          
+        </tr>
+        <tr *ngFor="let account of accountList">
+            <td>
+                
+                    {{account.account_number}}
+                
+            </td>
+            <td>{{account.account_balance}} $</td>
+            <td >{{account.account_loan}}</td>
+            
+
+        </tr>
+    </table>
+
+
+</div>
+
+
+</div>
+
+
+
+
